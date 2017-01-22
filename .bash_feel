@@ -1,0 +1,6 @@
+printf "%s ~ %s\n" "$USER" "$(date)" | lolcat
+fortune -s | cowsay | lolcat
+echo
+echo
+
+export PS1="\e[1m\e[36m$(echo -e "\xE2\x87\x92") \e[0m\e[0m\e[31m\w\e[1m$ \e[0m\e[0m"

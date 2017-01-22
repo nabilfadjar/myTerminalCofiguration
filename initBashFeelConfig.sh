@@ -9,9 +9,8 @@ function backupBashRc(){
 
 function insertInBashRcEOF() {
     printf "\n# Look and Feel
-# You may want to put all your additions into a separate file like
-# ~/.bash_feel, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+# You may want to put all your additions into ~/.bash_feel
+# for putting your own look and feel.
 
 if [ -f ~/.bash_feel ]; then
 . ~/.bash_feel

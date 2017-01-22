@@ -31,7 +31,7 @@ Debian/Ubuntu:
 sudo apt-get install fortune cowsay lolcat
 ```
 
-## What if I already a `.bashrc`?
+## What if there is already an existing `.bashrc`?
 
 Your initial `.bashrc` will be saved as `.bashrc_backup` and we will insert a new `.bashrc` into your system.
 

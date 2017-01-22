@@ -1,6 +1,7 @@
 # My Terminal Cofiguration
-
 #### Muhammad Nabil Fadhiya
+
+### CURRENTLY THIS IS STILL IN DEVELOPEMNT BUT YOU CAN STILL RUN IT...
 
 The repository name is referred to as myTerminalCofiguration.
 

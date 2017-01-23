@@ -21,14 +21,18 @@ This will edit `.bashrc` file if it exists by inserting the `.bash_feel` to be e
 
 This stores the configuration of how you would like your terminal to look like. See the sample `.bash_feel` file in this repository.
 
-Note that this sample `.bash_feel` would need to have the following packages installed in the system before being able to run it:
-- `fortune`
+Note that this sample `.bash_feel` **would need** to have the following packages installed in the system before being able to run it:
+- `fortune-mod`
 - `cowsay`
 - `lolcat`
 
-You can install these packages using your following package manager.
+You can check and install these packages using your following package manager.
 Debian/Ubuntu:
 ```
+# Checks if the listed packages exist
+dpkg -s fortune-mod lolcat cowsay
+
+# Installs the listed the packages
 sudo apt-get install fortune cowsay lolcat
 ```
 

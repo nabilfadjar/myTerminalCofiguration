@@ -1,7 +1,7 @@
 # My Terminal Cofiguration
 #### Muhammad Nabil Fadhiya
 
-### CURRENTLY THIS IS STILL IN DEVELOPEMNT BUT YOU CAN STILL RUN IT...
+### Status: Script looks good. Please send me any suggestions or fork this repository if you have any improvements.
 
 The repository name is referred to as myTerminalCofiguration.
 

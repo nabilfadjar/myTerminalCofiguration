@@ -25,17 +25,26 @@ else
     bashRc_exist=false;
 fi
 
-#echo $bashRc_exist
-
 while true; do
     read -p "[Yy][Nn] " yn
     case $yn in
         [Yy]* )
-            backupBashRc;
+            if $bashRc_exist; then
+                echo "Backing up .bashrc to .bashrc_backup...";
+                echo "Updating .bashrc...";
+                backupBashRc;
+            else
+                echo "Creating new .bashrc file...";
+                touch ~/.bashrc;
+            fi;
             insertInBashRcEOF;
-            cp .bash_feel ~/
+            cp .bash_feel ~/;
+            echo "Done!"
             break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer with Y/y or N/n.";;
+        [Nn]* )
+            echo "Cancelling installation..."
+            exit;;
+        * )
+            echo "Please answer with Y/y or N/n.";;
     esac
 done

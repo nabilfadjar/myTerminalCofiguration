@@ -27,7 +27,8 @@ Note that this sample `.bash_feel` **would need** to have the following packages
 - `lolcat`
 
 You can check and install these packages using your following package manager.
-Debian/Ubuntu:
+
+For Debian/Ubuntu:
 ```
 # Checks if the listed packages exist
 dpkg -s fortune-mod lolcat cowsay
@@ -51,7 +52,7 @@ Sample execution:
 chmod u+x initBashFeelConfig.sh
 
 # Use this to execute the script
-./initBashFeelConfig.sh
+./initBashFeelConfig.sh <Custom Configuration File Name>
 ```
 
 ## Where has this been tested?

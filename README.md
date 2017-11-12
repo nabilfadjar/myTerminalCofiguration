@@ -1,4 +1,4 @@
-# My Terminal Cofiguration
+# terminal-config
 #### Muhammad Nabil Fadhiya
 
 ### Status: Script looks good. Please send me any suggestions or fork this repository if you have any improvements.
